@@ -1,5 +1,5 @@
-#rps-console
+#rps-gui
 
-This is a simple version of Rock, Paper, Scissors written in javascript, meant to be played using the developer console open.
+This is a simple version of Rock, Paper, Scissors written in javascript, meant to play complete with a gui!
 
-I used vanilla javascript, html, and css to create this project, based off the project definitions set from The Odin Project!
+I used vanilla javascript, html, and css to create this project, based off of my console js version of the game and TheOdinProject
