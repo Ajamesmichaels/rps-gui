@@ -10,13 +10,18 @@
 
 		<header class="head">
 			<h1>Rock, Paper, Scissors!</h1>
-			<p>Brought to you by <a href="https://github.com/ajamesmichaels" >Anthony Michaels</a> and <a href="https://www.theodinproject.com" >The Odin Project</a></p>
 		</header>
 
 		<div class="play">
-			<p>Ready to play? Press F12 to open up the console, and then hit begin!</p>
-			<button onclick="game();">Begin</button>
+			<p id="gametext"></p>
+			<button data-key='82' class="choice"><img src="" alt="rock"/></button>
+			<button data-key='80' class="choice"><img src="" alt="paper"/></button>
+			<button data-key='83' class="choice"><img src="" alt="scissors"/></button>
+			<button data-key='32' id="play">Play!</button>
 		</div>
-
+		
+		<footer class="foot">
+			<p>Brought to you by <a href="https://github.com/ajamesmichaels" >Anthony Michaels</a> and <a href="https://www.theodinproject.com" >The Odin Project</a></p>
+		</footer>
 	</body>
 </html>
